@@ -41,6 +41,10 @@ apis:
       - type: x-api-endpoint
         url: https://open.yukon.ca/api/3/action/status_show
 common:
+  - type: VulnerabilityDisclosure
+    url: security/open-yukon-ca-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/open-yukon-ca-domain-security.yml
   - type: Website
     url: https://open.yukon.ca
   - type: Documentation
